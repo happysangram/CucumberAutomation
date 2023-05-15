@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: login
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.25 s <<< FAILURE! - in login
+login.login1  Time elapsed: 5.426 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Blue [Shoes]> but was:<Blue [Tshirt]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at SeleniumProject.StepDefination.CartStepDefination.i_should_see_in_the_cart(CartStepDefination.java:45)
+	at ✽.I should see 1 "Blue Shoes" in the cart(file:///Users/sangram.das/GIT/CucumberAutomation/src/test/resources/SeleniumProject/Login.feature:26)
+
